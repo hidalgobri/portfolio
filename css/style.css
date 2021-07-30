@@ -1,3 +1,17 @@
+/*!!refactorizar los paddings*/
+/*Fuente*/
+h1,h2{
+    font-family: 'Lobster', cursive;
+}
+h1{ font-size: 50px; }
+h2{ font-size: 40px;}
+h3, a{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 /*Header*/
 header{
     display: flex;
@@ -37,10 +51,10 @@ nav{
 }
 /*Inicio*/
 .inicio{
-
+    height: 400px;
     display: flex;
     justify-content: space-between;
-    padding: 100px 300px 50px 300px;
+    padding: 90px 150px 90px 150px;
 }
 .inicio__img{
     width: 190px; /* width of container */
@@ -52,7 +66,7 @@ nav{
     
 }
 
-.inicio__descripcion{
+.inicio__div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +76,8 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .servicios__tipos{
@@ -76,10 +92,13 @@ nav{
 .servicios__item{
     padding:  5px;
 }
-/*Proyectos*/
+/*Proyectos, contact me*/
 .seccion_centrada{
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
