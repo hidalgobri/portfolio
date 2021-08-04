@@ -20,7 +20,7 @@ header{
     left: 0;
     top: 0;
     right: 0;
-    background-color: #fffbfa;
+    background-color: #f2fafa;
 }
 nav{
     width: 100%;
@@ -65,7 +65,7 @@ nav{
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
-    
+
 }
 
 .inicio__div{
