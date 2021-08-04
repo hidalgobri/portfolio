@@ -7,12 +7,12 @@ h1{ font-size: 50px; }
 h2{ font-size: 40px;}
 h3, a{
     font-family: 'Roboto Mono', monospace;
-    
+
 }
 p{
     font-family: 'Open Sans', sans-serif;
 }
-/*Header*/
+/*Header  */
 header{
     display: flex;
     position: fixed;
@@ -63,7 +63,7 @@ nav{
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
-    
+
 }
 
 .inicio__div{
