@@ -7,12 +7,13 @@ h1{ font-size: 50px; }
 h2{ font-size: 40px;}
 h3, a{
     font-family: 'Roboto Mono', monospace;
-
+    font-size: 20px;
 }
 p{
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
-/*Header  */
+/*Header*/
 header{
     display: flex;
     position: fixed;
@@ -38,7 +39,15 @@ nav{
     width: 50%;
     height: 70px;
     line-height: 70px;
+
 }
+
+.nav__item:hover {
+border: 3px solid #030303;
+color: #ff7a59;
+background: #fff;
+}
+
 .nav__link{
     text-decoration: none;
 }
@@ -65,6 +74,12 @@ nav{
     border-radius: 50%;
     background-size: 100% auto;
 
+}
+/*Efecto imagen*/
+.inicio__img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .inicio__div{
@@ -102,4 +117,9 @@ nav{
     text-align: center;
     padding-top: 90px;
     padding-bottom: 90px;
+}
+/*Efectos imagenes proyectos*/
+
+.seccion_centrada:hover img {
+	filter: none;
 }
